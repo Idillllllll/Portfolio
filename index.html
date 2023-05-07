@@ -6,12 +6,18 @@
 </head>
 
 <body>
+<h2>Ex 1</h2>
+
+<button type="button" onclick="getDate()"> Tid og dato</button>
+<p id="demo"></p>
+    
 <div class="topnav">
 <a href="index.html">Hovedmenu</a>
 <a href="2.%20side.html" target="_blank">Lidt om mig</a>
 <a href="3.side.html" target="_blank">Webteknologier</a>
 <a href="Itsikkerhed.html" target="_blank">IT-sikkerhed</a>
-<a href="side4.html" target="_blank">Astro-pi</a>    
+<a href="side4.html" target="_blank">Astro-pi</a>
+<a href="side5.html" target="_blank">Database</a>     
     </div>    
     
  
@@ -25,4 +31,10 @@
  
     
 </body>
-</html
+</html>
+ 
+    <script>
+    function getDate(){
+        document.getElementById('demo').innerHTML = Date();
+    }
+    </script>
