@@ -98,8 +98,14 @@ left:0px;
 
 div.img14{
 position: relative;
-top:-470px;
-left:130px;
+top:0px;
+left:5px;
+}
+
+div.img15{
+position: relative;
+top:-615px;
+left:450px;
 }
 
 div.box3{
@@ -242,6 +248,42 @@ height: 140px;
 width: 640px;
 position: relative;
 top: -370px;
+left: 0px;
+background-color: rgb(255,255,255);
+}
+
+div.box14{
+margin: 0px;
+padding: 0px;
+border: 5px solid black;
+height: 200px;
+width: 406px;
+position: relative;
+top: 10px;
+left: 0px;
+background-color: rgb(255,255,255);
+}
+
+div.box15{
+margin: 0px;
+padding: 0px;
+border: 5px solid black;
+height: 200px;
+width: 406px;
+position: relative;
+top: -603px;
+left: 449px;
+background-color: rgb(255,255,255);
+}
+
+div.box16{
+margin: 0px;
+padding: 0px;
+border: 5px solid black;
+height: 80px;
+width: 220px;
+position: relative;
+top: -580px;
 left: 0px;
 background-color: rgb(255,255,255);
 }
